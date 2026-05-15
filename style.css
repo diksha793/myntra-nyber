@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant,sans-serif;
+}
+
+.navbar {
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;   
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    display: block;
+    height: 100px;
+    width: 150px;
+    background-block: url("myntra logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 1px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    padding:  25px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor:pointer; 
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    width: 180px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f6;
+    height: 45px;
+    width: 700%;
+    padding: 0 15px;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+.search-bar input {
+    border: none;
+    outline: 100;
+    width:100%;
+    padding-left: 10px;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.action-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/*** Hero Section **/
+.hero-section {
+    background-image: url("myntra hero section.png");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+    align-items: center;
+    color: blue;
+    text-align: center;
+}
+
+.hero-msg {
+    position: absolute;
+    top : 50%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    width: 80%;
+    font-size: 1.25rem;
+    margin-bottom: 50px;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+/** shop section **/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    padding: 20 5%;
+    gap: 20px;
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 22%;
+    background-color: wheat;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.box-img {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.box img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content p {
+    color: blue;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.box-content p:hover{
+    color: #c7511f;
+}
+
+/** footer **/
+.footer{
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: black;
+    color: beige;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: #f5f5f6;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("myntra logo.png");
+    background-size: contain;
+    color: #f5f5f6;
+    height: 50px;
+    width: 150px;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copright {
+    padding-top: 5px;
+}
+
+
+
+
